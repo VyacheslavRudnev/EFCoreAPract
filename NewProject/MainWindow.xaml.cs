@@ -28,7 +28,9 @@ public partial class MainWindow : Window
     public MainWindow()
     {
         InitializeComponent();
-        
+
+        MessageBox.Show("Домашня робота уч 008");
+
         var config = new ConfigurationBuilder()
                 .AddJsonFile("config.json")
                 .Build();
